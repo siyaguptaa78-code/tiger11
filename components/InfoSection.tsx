@@ -19,16 +19,16 @@ export default function InfoSection() {
             ========================================================= */}
         <div className={`${styles.sectionBlock} ${styles.introBlock}`}>
           <h1 className={styles.mainTitle}>
-            Tiger365 ID Provider: Get Your Tiger365 Login and Start Betting on India’s Most Trusted Platform
+            Tiger365 ID Provider: Get Your Tiger365 Login and Start Betting on India’s Most Trustworthy Platform
           </h1>
           <p className={styles.paragraph}>
-            If you want a fast, safe, and reliable way to get your <strong>tiger365</strong> or <strong>tigerexch365</strong> betting ID, you are in the right place. We are one of India’s most trusted casino and sports betting ID providers on the Tiger Exchange network, and thousands of players choose us every day because we keep everything simple. You connect with our WhatsApp support team, we create your <strong>tiger365 ID</strong>, and you can start playing your favorite Indian casino games and sports betting markets within minutes.
+            For users searching for a convenient, safe, and quick way to get a tiger365 or tigerexch365 betting ID, you are in the right place. Being one of India’s most reliable Tiger Exchange ID providers, we strive to establish a convenient and reliable connection with our clients. Every interaction with our website is built upon the idea of simplicity: by chatting with our WhatsApp support, we enable you to get your tiger365 ID in a fast and secure manner. Our customers entrust us with their tigerexch365 ID generation so they can enjoy our amazing array of Indian tiger365 casino games and sports betting markets.
           </p>
           <p className={styles.paragraph}>
-            Our aim is to give you a smooth, user friendly, and fully secure betting experience on the <strong>tiger365 app</strong> and website. Whether you enjoy Teen Patti, Andar Bahar, Roulette, Slots, or want to bet live on cricket, football, or kabaddi, your journey begins with your <strong>tiger365 login</strong>. And we are here to help you get it instantly.
+            Our goal is to provide our clients with an ultimate convenient, user-friendly, and secure betting experience on tiger365 apps and website. Whether our users want to play live Teen Patti, Andar Bahar, Roulette, Slots, or want to bet on live Cricket, Kabaddi, and Football matches, their journey starts with their tiger365 login ID and tigerexch365 website. And we are here to help them achieve this dream right now.
           </p>
           <p className={styles.paragraph}>
-            This page explains everything you need before you start. How <strong>tiger365 pro</strong> works, why the tigerexch365 platform is trusted across India, how to get your ID quickly, what games you can play, how deposits and withdrawals work, and why so many players rely on our service every day. Everything is written in simple English, so even new users can understand it easily.
+            This webpage will tell you everything about what tiger365 pro has to offer before you register and start betting. It will introduce you to tigerexch365’s popularity among Indian bettors, explain how you can get your ID quickly and easily, explore the types of games and markets you can enjoy on this platform, examine the deposit and withdrawal process, and more. Everything is written in a simple English language that will help you understand everything clearly and without spending hours trying to decipher the complicated instructions.
           </p>
         </div>
 
@@ -38,32 +38,32 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <div className={styles.twoColRow}>
             <div className={styles.colText}>
-              <h2 className={styles.sectionTitle}>What Is Tiger365 pro and Why Is It So Popular in India</h2>
+              <h2 className={styles.sectionTitle}>What Is Tiger365 pro and Why Is It So Popular In India</h2>
               <p className={styles.paragraph}>
-                <strong>Tiger365</strong> is one of India’s fastest growing online casino and sports betting platforms. It runs on the trusted <strong>tigerexch365</strong> network, known for its smooth interface, fast payments, strong security, and huge variety of games. The platform is built for Indian players who want a clean, simple, and hassle free betting experience.
+                Tiger365 is one of India’s fastest-growing online casino and sports betting platforms that operate on the popular tigerexch365 network. This website excels at providing its users with an ultimate betting experience due to its intuitive interface, high-speed payments, advanced security measures, and vast game variety. Tiger365 is a perfect choice for those who want to enjoy a seamless betting adventure with no hassles involved.
               </p>
               <p className={styles.paragraph}>
-                Here is why <strong>Tiger365 Pro</strong> has become so popular across India:
+                Below are some reasons why Tiger365 Pro has gained so much popularity among Indian bettors:
               </p>
               <ol className={styles.orderedList}>
                 <li>
-                  <strong>User friendly interface:</strong> The website and <strong>tiger365 app</strong> are easy to use, even for beginners. You can move between casino games, sports events, live betting, and your wallet without getting confused.
+                  <strong>Easy to use:</strong> The intuitive design of tiger365 website and apps enables you to switch between sports betting, casino games, live betting, and your wallet effortlessly.
                 </li>
                 <li>
-                  <strong>Designed for Indian players:</strong> Tiger365 includes all the popular Indian casino games like Teen Patti, Andar Bahar, Jhandi Munda, and Live Lottery. It also offers a wide range of cricket betting options covering IPL, Test matches, the World Cup, Ranji Trophy, and more.
+                  <strong>Popular Indian games:</strong> Tiger365 excels at offering its users a vast library of Indian casino games such as Teen Patti, Andar Bahar, Jhandi Munda, and Live Matka lottery. Moreover, you can enjoy a variety of local sports betting markets, including IPL, Test Matches, the World Cup, Ranji Trophy, etc.
                 </li>
                 <li>
-                  <strong>Fast and secure transactions:</strong> Deposits and withdrawals are quick, smooth, and safe. Your money moves without delay.
+                  <strong>Fast & secure payments:</strong> Make quick and easy deposits and withdrawals to your bank account using UPI, PhonePe, Google Pay, Paytm, or Net Banking.
                 </li>
                 <li>
-                  <strong>Bet anytime:</strong> Cricket, football, casino tables, and more are available around the clock, giving you nonstop action.
+                  <strong>24×7 Betting:</strong> You can enjoy betting at any time you want as Tiger365 platform provides you with cricket matches, Football, Kabaddi, and Live Casino games around the clock.
                 </li>
                 <li>
-                  <strong>Live casino experience:</strong> You can enjoy real dealers, real tables, and real time gameplay directly from your phone, making it feel like a true casino experience.
+                  <strong>Live casino experience:</strong> You can enjoy real-time gameplay with human dealers to have a thrilling and realistic casino adventure directly from your phone.
                 </li>
               </ol>
               <p className={styles.paragraph}>
-                To enjoy all these features, you need a verified <strong>Tiger365 login ID</strong>, and that is exactly what we provide.
+                To enjoy the benefits that Tiger365 has to offer, you only need a reliable Tiger365 login ID, which we can provide to you.
               </p>
               <div className={styles.ctaBoxLeft}>
                 <a 
@@ -97,20 +97,19 @@ export default function InfoSection() {
             <div className={styles.colText}>
               <h2 className={styles.sectionTitle}>Get Your Tiger365 ID Instantly on WhatsApp</h2>
               <p className={styles.paragraph}>
-                We keep the process simple because players want speed and clarity. There are no long forms and no confusing steps. You only need to connect with our support team on WhatsApp, and we take care of the rest.
+                We believe that convenience is one of the most vital aspects of the customer experience. And that is why we have implemented the easiest way to obtain your ID. By chatting with our friendly assistant on WhatsApp, you will be able to request your tiger365 ID, and we will do the rest.
               </p>
               <p className={styles.paragraph}>
-                Here is how it works:
+                Here is how the process works:
               </p>
-              <ol className={styles.orderedList}>
-                <li>Tap the WhatsApp button on our website</li>
-                <li>Send us a message saying you want a <strong>tiger365 ID</strong></li>
-                <li>Our team verifies your request within minutes</li>
-                <li>Your ID is created right away</li>
-                <li>Log in using your <strong>tiger365 login</strong> on the website or the <strong>tiger365 app</strong></li>
-              </ol>
+              <ul className={styles.bulletList}>
+                <li>By pressing the WhatsApp button on our website, you can send us a message requesting your tiger365 ID</li>
+                <li>Our team will verify your request within a few minutes</li>
+                <li>Your ID will be generated right away</li>
+                <li>You can log in using your tiger365 login on the web or on the mobile app</li>
+              </ul>
               <p className={styles.paragraph}>
-                That’s all it takes. Fast, direct, and secure. We never delay, and we never make the process complicated. Your privacy stays completely protected, and you can begin your betting journey smoothly and confidently.
+                That is all you need to do to get your tiger365 login, and you will be playing on India’s best betting platform in no time. We never ask our clients for extra information, and we never delay the process. We value your privacy and keep all your data safe and secure. And most importantly, our customer support is always available to help you resolve any issues.
               </p>
               <div className={styles.ctaBoxLeft}>
                 <a 
@@ -164,17 +163,17 @@ export default function InfoSection() {
             SECTION 5: WHY CHOOSE US AS YOUR TIGEREXCH365 ID PROVIDER
             ========================================================= */}
         <div className={styles.sectionBlock}>
-          <h2 className={styles.sectionTitleCenter}>Why Choose Us as Your Tigerexch365 ID Provider</h2>
+          <h2 className={styles.sectionTitleCenter}>Why Choose Us As Your Tigerexch365 ID Provider</h2>
           <p className={styles.paragraphCenter}>
-            Players trust us because we focus on three things that matter most: speed, honesty, and real support. We keep everything simple and reliable so you always know what to expect.
+            Many players turn to us for our ability to provide fast, transparent, and reliable results. We believe in keeping all our operations as simple and uncomplicated as possible so our clients can have a fantastic betting experience and get the most out of their betting.
           </p>
-          <ol className={styles.orderedListCenter}>
-            <li><strong>Instant Tiger365 ID creation:</strong> Once you connect with us on WhatsApp, we create your <strong>tiger365 login</strong> right away. No waiting and no delays.</li>
-            <li><strong>Fully secure and private:</strong> Your information stays completely confidential. We follow strict privacy and security practices to make sure your betting experience is safe from start to finish.</li>
-            <li><strong>24×7 WhatsApp support:</strong> Our team is always available to help you. Whether it is an issue with the <strong>tiger365 app</strong>, deposits, withdrawals, or game guidance, you can reach us anytime.</li>
-            <li><strong>Quality service you can count on:</strong> We are experienced ID providers on the <strong>tigerexch365</strong> network. We know the platform well and solve issues quickly to keep your account running smoothly.</li>
-            <li><strong>Support for both new and existing players:</strong> New players get full guidance during setup. Existing players get quick help with upgrades, troubleshooting, and anything else they need.</li>
-          </ol>
+          <ul className={styles.bulletListCenter}>
+            <li><strong>Instant tiger365 id creation:</strong> By contacting us on WhatsApp, you will be able to get your tiger365 login right away. Your privacy and security are guaranteed.</li>
+            <li><strong>Fully secure and private:</strong> We promise to keep all your personal data private and follow all relevant security standards so you can bet on Tiger365 with a clear conscience.</li>
+            <li><strong>24×7 WhatsApp support:</strong> Our staff is always available to assist you. Whether it is an issue with the tiger365 app, deposits, withdrawals, or any other problems, our team will be glad to help you anytime they can.</li>
+            <li><strong>Quality online experience:</strong> We are professional ID providers on tigerexch365 network, and we have extensive experience working with this platform. This allows us to offer our clients the best services and solve their issues efficiently.</li>
+            <li><strong>Support both new and existing users:</strong> Our friendly team is always available to help new users to set up their accounts and assist existing players to solve their problems.</li>
+          </ul>
           <div className={styles.ctaBoxCenter}>
             <a 
               href={getWhatsAppLink("Hi! I want to play on Tiger365.")} 
@@ -191,20 +190,18 @@ export default function InfoSection() {
             SECTION 6: LOGIN GUIDE FOR NEW USERS
             ========================================================= */}
         <div className={`${styles.sectionBlock} ${styles.guideBlock}`}>
-          <h2 className={styles.sectionTitle}>Tiger365 Login Guide for New Users</h2>
+          <h2 className={styles.sectionTitle}>Tiger365 Login Guide For First-Time Users</h2>
           <p className={styles.paragraph}>
-            Once you receive your ID, logging in is simple. The Tiger365 platform is made for beginners, so you never feel lost.
+            After you get your Tiger365 ID, you only need a few simple steps to log in and start enjoying all your favorite games. Designed for all users, including first-time visitors, the Tiger365 website will show you what to do to log in to your new account.
           </p>
-          <h3 className={styles.subTitle}>Step-by-step Tiger365 login process:</h3>
+          <p className={styles.paragraph}>
+            Below is a step-by-step guide on how to perform a Tiger365 login and gain access to all exciting games and sports betting markets:
+          </p>
           <ul className={styles.bulletList}>
-            <li>Visit the official Tiger365 website.</li>
-            <li>Enter your <strong>Tiger365 login</strong> username.</li>
-            <li>Enter your password.</li>
-            <li>Click Login.</li>
-            <li>Start betting or playing casino games.</li>
+            <li>By visiting the official tiger365 website, you can type in your Tiger365 login and password and click the login button to start betting.</li>
           </ul>
           <p className={styles.paragraph}>
-            You can use the same details to log into the <strong>Tiger365 app</strong>. If you forget your password or login details, our support team will help you instantly on WhatsApp.
+            You can also use the same credentials to log in to the tiger365 app. Moreover, if you have forgotten your password or login details, our team can help you right away on WhatsApp.
           </p>
         </div>
 
@@ -214,28 +211,27 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <div className={styles.twoColRow}>
             <div className={styles.colText}>
-              <h2 className={styles.sectionTitle}>Tiger365 App: Betting Made Easy on Your Mobile</h2>
+              <h2 className={styles.sectionTitle}>Tiger365 App: The Easiest Way To Enjoy Tiger365 On Your Mobile</h2>
               <p className={styles.paragraph}>
-                The <strong>tiger365 app</strong> is the easiest and most comfortable way for Indian players to enjoy casino games and sports betting on their phones. The app is fast, lightweight, and simple to use, which is why so many players choose the tiger365 mobile experience over any other platform. Once our team creates your ID, your <strong>tiger365 login</strong> works instantly on the app, giving you direct access to casino tables, live matches, and all major betting markets.
+                The tiger365 app is the most comfortable and easy way for Indian users to enjoy this website’s casino and sportsbook services. Featuring a lightweight design and intuitive interface, the tiger365 app is a popular choice among Indian bettors, who want to experience this platform from their mobile phones. This application enables you to gain instant access to all casino games and sports betting markets. By using our ID providers services, you will see how your tiger365 login works seamlessly on tiger365’s mobile app and grants you access to all local sports betting markets and exciting Indian and international casino games.
               </p>
               <p className={styles.paragraph}>
-                The tiger365 app is designed for Indian users who want smooth gameplay, quick betting updates, and easy navigation. It connects to the secure <strong>tigerexch365</strong> network, which keeps your account protected while you enjoy your favorite Indian casino games and sports events.
+                The tiger365 app helps you navigate this platform conveniently, especially while using this application on the go. Connecting to the highly-secured tigerexch365 network, this mobile app allows you to experience a real casino with live dealers and play all your favorite Indian casino games and sports matches. Below are some benefits of using the tiger365 app:
               </p>
-              <h3 className={styles.subTitle}>Key features of the tiger365 app:</h3>
               <ul className={styles.bulletList}>
                 <li>Fast and secure tiger365 login</li>
-                <li>Instant access to cricket, football, and kabaddi betting</li>
-                <li>All major Indian casino games in one app</li>
+                <li>Access to local sports betting markets</li>
+                <li>Indian and international casino games</li>
                 <li>Quick deposits and withdrawals</li>
-                <li>Low data usage for smooth performance</li>
-                <li>Works on all Android devices</li>
-                <li>Clean and beginner friendly layout</li>
-                <li>Real time odds and match updates</li>
-                <li>Safe and secure wallet system</li>
-                <li>Full WhatsApp support whenever you need help</li>
+                <li>Easy-to-use interface</li>
+                <li>Low data consumption</li>
+                <li>Full compatibility with all Android devices</li>
+                <li>Real-time odds and match updates</li>
+                <li>Secure wallet system and instant fund transfers</li>
+                <li>24×7 whatsapp support</li>
               </ul>
               <p className={styles.paragraph}>
-                The tiger365 app brings everything together in one simple place. Casino games, live sports, betting markets, and fast payments all run smoothly. Whether you love cricket or enjoy quick Teen Patti rounds, the tiger365 app gives you the best way to play anytime, anywhere.
+                The tiger365 app is a great tool to enjoy this platform’s sports betting and casino services with its intuitive interface, live dealers, and convenient deposit and withdrawal methods. Featuring all local sports betting markets and casino games along with fast and secure payments, the tiger365 app enables you to have a fantastic betting experience every time you use it.
               </p>
             </div>
             <div className={styles.colImg}>
@@ -255,9 +251,9 @@ export default function InfoSection() {
             SECTION 8: GAMES YOU CAN PLAY
             ========================================================= */}
         <div className={styles.sectionBlock}>
-          <h2 className={styles.sectionTitleCenter}>Games You Can Play on Tiger365 and TigerExch365</h2>
+          <h2 className={styles.sectionTitleCenter}>Games You Can Play On Tiger365 and TigerExch365</h2>
           <p className={styles.paragraphCenter}>
-            The <strong>tiger365</strong> platform offers one of the largest collections of casino games and sports betting markets in India. Since tiger365 and <strong>tigerexch365</strong> are designed with Indian players in mind, you get easy access to the games and sports you already love. From Teen Patti to IPL betting, the platform delivers nonstop entertainment. Once you receive your <strong>tiger365 login</strong>, every game and betting market becomes available instantly.
+            The tiger365 platform offers one of the most comprehensive collections of online casino games and sports betting markets in India. Since tiger365 and tigerexch365 are specifically tailored to meet the demands of Indian bettors, you will find all locally popular games and sports events you want to enjoy. This website’s live betting functionality enables you to participate in all ongoing sports matches with no hassles involved. Moreover, once you get your tiger365 login, you will gain instant access to all casino games and sports betting markets.
           </p>
         </div>
 
@@ -267,34 +263,34 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <div className={`${styles.twoColRow} ${styles.rowReverse}`}>
             <div className={styles.colText}>
-              <h2 className={styles.sectionTitle}>Indian Casino Games on Tiger365</h2>
+              <h2 className={styles.sectionTitle}>Indian Casino Games On Tiger365</h2>
               <p className={styles.paragraph}>
-                Indian players enjoy games that feel familiar, and the <strong>tiger365 app</strong> brings them all together with smooth gameplay, live dealers, and a real casino feel.
+                Indian players enjoy engaging with different casino games that are available in local brick-and-mortar casinos. Luckily, the tiger365 app consolidates all these exciting Indian casino games that you can play for real money. By simply downloading the tiger365 app and registering your account, you can start playing all these thrilling local casino games for real money.
               </p>
               <div className={styles.gameDetailList}>
                 <div className={styles.gameDetailItem}>
                   <strong>Teen Patti:</strong>
-                  <p>A classic three card Indian favorite. Play against real players or live dealers. The rules are simple, the rounds are fast, and the winning chances are high, which is why Teen Patti is a top pick on <strong>tiger365 pro</strong>.</p>
+                  <p>This is a three-card Indian game that you can play against real players or human dealers. This game is extremely popular among Indian bettors due to its easy-to-learn rules and instant gameplay. That is why Teen Patti is one of the most-played casino games at tiger365 pro.</p>
                 </div>
                 <div className={styles.gameDetailItem}>
                   <strong>Andar Bahar:</strong>
-                  <p>A simple and exciting card game where you predict whether the winning card will fall on the Andar side or the Bahar side. Great for new players who want quick action.</p>
+                  <p>This is another popular Indian card game that involves guessing which side (Andar or Bahar) the desired card will appear. This is a great option for novice players who want to start their journey in Indian casino games.</p>
                 </div>
                 <div className={styles.gameDetailItem}>
                   <strong>Jhandi Munda:</strong>
-                  <p>A traditional dice game from North East India. Bet on symbols, watch the dice roll, and enjoy instant payouts. It is fun, fast, and perfect for casual players.</p>
+                  <p>This exciting dice game originates from the northeastern states of India. By simply placing your bet on the desired symbol, you can enjoy instant gameplay and thrilling payouts.</p>
                 </div>
                 <div className={styles.gameDetailItem}>
                   <strong>Live Matka:</strong>
-                  <p>A modern twist on the classic Matka lottery game. Tiger365 offers live draws, simple betting choices, and clear payouts.</p>
+                  <p>This popular lottery-style game has gained tremendous popularity among Indian bettors due to its easy rules and fast-paced rounds. The tiger365 website enables you to enjoy all Matka lottery draws in real-time.</p>
                 </div>
                 <div className={styles.gameDetailItem}>
                   <strong>Rummy:</strong>
-                  <p>Play classic Indian Rummy with smooth controls and multiple table options. Perfect for players who enjoy skill based card games.</p>
+                  <p>This is a very popular Indian card game among Indian bettors. With multiple game variations and realistic gameplay, Rummy at tiger365 enables you to enjoy this game with real money.</p>
                 </div>
                 <div className={styles.gameDetailItem}>
                   <strong>Indian Roulette:</strong>
-                  <p>A popular wheel game with Indian style tables. Place your bets on numbers, patterns, or colors and watch the wheel decide your fate.</p>
+                  <p>This exciting gambling game features a wheel with different numbers and payouts. By simply placing your bet on the desired number or color, you can enjoy this game with human dealers.</p>
                 </div>
               </div>
             </div>
@@ -315,9 +311,9 @@ export default function InfoSection() {
             SECTION 10: INTERNATIONAL CASINO GAMES
             ========================================================= */}
         <div className={styles.sectionBlock}>
-          <h2 className={styles.sectionTitleCenter}>International Casino Games on Tiger365</h2>
+          <h2 className={styles.sectionTitleCenter}>International Casino Games On Tiger365</h2>
           <p className={styles.paragraphCenter}>
-            Along with Indian favorites, the <strong>tigerexch365</strong> network offers top quality international casino games with HD streaming and professional dealers.
+            In addition to a variety of Indian casino games, tigerexch365 network offers you a great selection of international casino games you can enjoy for real money. Designed for Indian bettors, these international casino games feature ultra-realistic graphics and human dealers.
           </p>
           <div className={styles.casinoGrid}>
             <div className={styles.casinoCard}>
@@ -329,7 +325,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Blackjack</h3>
-              <p>A strategy based card game where you try to beat the dealer by getting as close to 21 as possible.</p>
+              <p>This exciting card game involves beating the dealer by having the highest hand total without exceeding 21. This game is extremely popular among Indian bettors due to its relatively easy rules and fast-paced rounds.</p>
             </div>
             <div className={styles.casinoCard}>
               <Image 
@@ -340,7 +336,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Baccarat</h3>
-              <p>A simple game where you bet on Player, Banker, or Tie. Easy rules and quick outcomes make it beginner friendly.</p>
+              <p>This is another popular card game that involves players betting on either the banker’s or player’s hand. Due to its easy-to-learn rules and instant gameplay, Baccarat is suitable for all levels of bettors.</p>
             </div>
             <div className={styles.casinoCard}>
               <Image 
@@ -351,7 +347,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Slots</h3>
-              <p>Enjoy hundreds of slot games with fun customized themes, bonus rounds, jackpots, and nonstop excitement.</p>
+              <p>By simply pressing the spin button, you can enjoy hundreds of different slots games with various themes, bonuses, and payouts. These games are perfect for players who want to enjoy a more straightforward casino experience.</p>
             </div>
             <div className={styles.casinoCard}>
               <Image 
@@ -362,7 +358,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Roulette</h3>
-              <p>A classic game where the spinning wheel decides the winner. Bet on numbers, colors, or combinations.</p>
+              <p>This exciting casino game involves predicting the number and color of the pocket in which the ball will land. By simply placing your bet on the desired number or color, you can enjoy this thrilling game for real money.</p>
             </div>
             <div className={styles.casinoCard}>
               <Image 
@@ -373,7 +369,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Poker</h3>
-              <p>Play live poker formats such as Texas Hold’em and Omaha. Test your skills against real players at real tables.</p>
+              <p>The Poker variety at tiger365 enables you to enjoy the most popular variants such as Texas Hold’em and Omaha poker. With easy-to-learn rules, Poker is a great choice for those who want to test their skills against real players.</p>
             </div>
             <div className={styles.casinoCard}>
               <Image 
@@ -384,7 +380,7 @@ export default function InfoSection() {
                 className={styles.casinoIcon}
               />
               <h3>Live Casino Tables</h3>
-              <p>Experience real dealers, HD video, and fully interactive gameplay from anywhere.</p>
+              <p>The live casino tables at tiger365 enable you to enjoy real-time gameplay with human dealers and realistic graphics.</p>
             </div>
           </div>
         </div>
@@ -395,40 +391,43 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <h2 className={styles.sectionTitleCenter}>Why Indian Players Love Tiger365 and TigerExch365</h2>
           <p className={styles.paragraphCenter}>
-            Indian players want a betting platform that is simple, fast, and stress free. This is exactly why <strong>tiger365</strong> and <strong>tigerexch365</strong> have become two of the most trusted names in the country. The platform is designed for Indian users and gives them smooth betting, familiar casino games, quick payments, and a clean interface that feels easy from the very first tap.
+            Indian players want to enjoy the most reliable online platform that provides them with a wide variety of betting and casino games. Tiger365 and tigerexch365 betting networks are two of India’s most popular and trustworthy websites that have gained incredible popularity among local bettors due to several compelling reasons. The tiger365 website and apps feature a simple interface that makes it easy for Indian bettors to navigate this site and find all the thrilling games they want to play.
+          </p>
+          <p className={styles.paragraphCenter}>
+            Some of the features that make these platforms popular among Indian bettors include:
           </p>
           <div className={styles.loveReasonsList}>
             <div className={styles.loveReasonItem}>
-              <strong>Simple and beginner friendly interface</strong>
-              <p>The tiger365 platform is easy for everyone to use. All menus are clear and simple, so you can switch between casino games, live matches, and sports betting without any confusion.</p>
+              <strong>User-friendly interface</strong>
+              <p>By visiting the tiger365 website and exploring its contents, you will realize that this platform is intuitive and easy to use. The menu is well-organized, and all the sections are easy to navigate, which enables you to switch between different games effortlessly.</p>
             </div>
             <div className={styles.loveReasonItem}>
-              <strong>Indian casino games included</strong>
-              <p>The tiger365 app brings all the popular Indian casino games together, like Teen Patti, Andar Bahar, Jhandi Munda, and Rummy. Since these games are familiar, players feel comfortable and confident right away.</p>
+              <strong>Indian sports betting and casino games</strong>
+              <p>The tiger365 website enables you to enjoy all the popular Indian sports betting markets and thrilling Indian casino games that are available in local casinos. By simply downloading the tiger365 app and creating your account, you will gain instant access to all these exciting games.</p>
             </div>
             <div className={styles.loveReasonItem}>
-              <strong>Fast deposits and withdrawals</strong>
-              <p>Payments on the tiger365 app are quick and reliable. You can deposit instantly through UPI, PhonePe, Google Pay, Paytm, or bank transfer. Withdrawals are just as smooth, which is one of the biggest reasons users trust the platform.</p>
+              <strong>Simple and fast deposits and withdrawals</strong>
+              <p>Tiger365 enables you to make simple and fast deposits and withdrawals to your bank account using UPI, PhonePe, Google Pay, Paytm, or Net Banking. Since deposits and withdrawals are among the most important aspects of betting, Indian bettors appreciate the opportunity to manage their finances with ease.</p>
             </div>
             <div className={styles.loveReasonItem}>
-              <strong>No technical complications</strong>
-              <p>Tiger365 runs on the dependable tigerexch365 network. You don’t need any technical knowledge to start. Simply log in with your tiger365 ID, make a deposit, and begin playing.</p>
+              <strong>No complicated technology</strong>
+              <p>Tiger365 is built on a reliable technology known as the tigerexch365 network. This platform requires no prior technical expertise and only needs a working internet connection for you to start betting.</p>
             </div>
             <div className={styles.loveReasonItem}>
               <strong>Trusted ID providers</strong>
-              <p>Players get their tiger365 login from verified ID providers who offer 24×7 WhatsApp support. This gives users the confidence and guidance they need, especially when starting out.</p>
+              <p>Indian bettors can trust our reliable ID providers services as we operate using a strict privacy and security policy. Additionally, our 24×7 customer support is always available to assist you with any issues you may encounter.</p>
             </div>
             <div className={styles.loveReasonItem}>
-              <strong>No hidden fees or surprise charges</strong>
-              <p>Tiger365 keeps everything transparent. Deposits, withdrawals, and gameplay are clean and simple with no extra fees.</p>
+              <strong>No additional charges</strong>
+              <p>Since all operations involving deposits, withdrawals, and financial transactions are handled securely, there are no additional charges or fees involved.</p>
             </div>
             <div className={styles.loveReasonItem}>
-              <strong>Smooth performance on all mobile devices</strong>
-              <p>The tiger365 app runs well on all Android phones, even older models or slower networks. This makes it a great choice for players across India.</p>
+              <strong>Great performance on all Android devices</strong>
+              <p>Due to its light-weight design, you can enjoy the tiger365 app on all Android devices without experiencing any performance issues.</p>
             </div>
           </div>
           <p className={styles.paragraphCenter}>
-            Indian players choose <strong>tiger365 pro</strong> because the platform understands what they want. Whether you enjoy Teen Patti, Andar Bahar, Rummy, or live cricket betting, tiger365 gives you everything in one secure, easy to use place.
+            Indian bettors love tiger365 pro due to its intuitive interface, extensive game variety, fast deposits and withdrawals, and reliable performance. Whether you want to play your favorite Indian sports betting markets or enjoy different Indian casino games, you will be able to do so on the most reliable platform.
           </p>
         </div>
 
@@ -438,15 +437,15 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <div className={styles.twoColRow}>
             <div className={styles.colText}>
-              <h2 className={styles.sectionTitle}>Deposits and Withdrawals on Tiger365</h2>
+              <h2 className={styles.sectionTitle}>Deposits and Withdrawals On Tiger365</h2>
               <p className={styles.paragraph}>
-                Smooth and secure payments are one of the main reasons Indian players prefer <strong>tiger365</strong> and the <strong>tigerexch365</strong> network. The platform keeps deposits and withdrawals quick, simple, and completely stress free. Once you receive your <strong>tiger365 login</strong>, you can manage your money with full confidence.
+                Smooth and hassle-free financial operations are some of the most crucial aspects of online betting. Fortunately, Tiger365 and tigerexch365 network ensure that all deposits and withdrawals are made securely and quickly so you can enjoy all the thrilling games on this platform.
               </p>
               <p className={styles.paragraph}>
-                The <strong>tiger365 app</strong> supports all major payment methods used across India. You can deposit instantly through UPI, PhonePe, Google Pay, Paytm, or bank transfer. Your funds show up in your tiger365 wallet within seconds, so you can start playing your favorite casino games or placing sports bets right away.
+                By visiting the tiger365 website, you will see that all financial operations are performed using UPI, PhonePe, Google Pay, Paytm, or Net Banking. This means that all deposits are made in real-time, and you will be able to start playing all your favorite casino games and sports matches right away. Likewise, you can also make withdrawals using these convenient methods and enjoy the ease of use that Tiger365 has to offer.
               </p>
               <p className={styles.paragraph}>
-                Withdrawals on tiger365 are just as smooth. After you request a payout, it is processed safely through your preferred payment option. And if you ever need help, our WhatsApp support team is always available to assist with withdrawal requests, payment confirmations, or tracking your payout. You receive your money quickly and without complications, making your entire gaming experience simple and stress free.
+                If you have any questions regarding deposits or withdrawals, our friendly support team is always available to help you. Additionally, you can view the detailed guidelines for all financial operations on our website.
               </p>
             </div>
             <div className={styles.colImg}>
@@ -469,12 +468,9 @@ export default function InfoSection() {
         <div className={styles.sectionBlock}>
           <div className={`${styles.twoColRow} ${styles.rowReverse}`}>
             <div className={styles.colText}>
-              <h2 className={styles.sectionTitle}>Responsible Gaming on Tiger365</h2>
+              <h2 className={styles.sectionTitle}>Responsible Gaming On Tiger365</h2>
               <p className={styles.paragraph}>
-                Playing on <strong>tiger365</strong> is exciting, but staying in control is important. We encourage every player to enjoy betting in a safe and balanced way. Set limits that feel comfortable, avoid chasing losses, and take breaks when you need them. Always play with a clear mind and treat betting as entertainment, not as a source of income.
-              </p>
-              <p className={styles.paragraph}>
-                If at any point you feel unsure or overwhelmed, our support team is always available on WhatsApp to help you. Your comfort and safety matter to us, and we want your experience on <strong>tiger365</strong> to stay positive, enjoyable, and responsible at all times.
+                While having fun is one of the main reasons for engaging in sports betting and playing casino games, it is important to be able to keep control at all times. As such, at Tiger365, we encourage our users to set limits in order to avoid disappointment and unnecessary losses. Remember to always bet responsibly and use only the amount of money you are comfortable losing. We believe that responsible gaming ensures that our users are able to enjoy all the thrilling games and sports betting markets on Tiger365 in a safe and controlled manner. If at any time you feel that you are unable to keep control of your betting activities, we recommend contacting our support team, who will be able to assist you right away.
               </p>
             </div>
             <div className={styles.colImg}>
@@ -494,9 +490,9 @@ export default function InfoSection() {
             SECTION 14: TRUSTED PATH TO TIGER365
             ========================================================= */}
         <div className={`${styles.sectionBlock} ${styles.introBlock}`}>
-          <h2 className={styles.sectionTitleCenter}>Your Trusted Path to Tiger365 Starts Here</h2>
+          <h2 className={styles.sectionTitleCenter}>Your Trusted Path To Tiger365 Begins Here</h2>
           <p className={styles.paragraphCenter}>
-            Choosing <strong>tiger365</strong> gives you a simple, fast, and dependable way to enjoy casino games and sports betting in India. Whether you love Indian classics like Teen Patti and Andar Bahar or prefer live cricket betting and international casino tables, everything is available in one smooth and easy experience. Getting your <strong>tiger365 login</strong> takes only a moment. Connect with our WhatsApp support team, receive your ID, and start playing on the <strong>tiger365 app</strong> within minutes. If you are looking for a secure, user friendly, and reliable platform backed by the trusted <strong>tigerexch365</strong> network, tiger365 is the perfect place to begin your betting journey.
+            By choosing Tiger365, you have already made the most important decision in your betting journey. Whether you want to enjoy all the thrilling Indian sports betting markets or play your favorite local and international casino games, everything will be much easier than you can imagine. By simply getting your tiger365 login and downloading the app, you will be able to start playing your favorite games right away. We believe that our intuitive interface, extensive game variety, seamless financial operations, and great performance will help you enjoy all the benefits of the Tiger365 platform.
           </p>
         </div>
 

@@ -8,12 +8,12 @@ export default function ResponsibleGaming() {
         <div className={styles.wrapper}>
           <div className={styles.warningHeader}>
             <span className={styles.icon}>⚠️</span>
-            <h2>Responsible Gaming at Tiger365</h2>
+            <h2>Responsible Gaming At Tiger365</h2>
           </div>
 
           <div className={styles.content}>
             <p className={styles.paragraph}>
-              Users can enjoy online gaming without taking any risks because of responsible gaming. It encourages controlled and safe gaming. Tiger365 offers tools for efficient time and money management and encourages players to play within their boundaries. Gaming should never be seen as a source of stress, but rather as a kind of leisure.
+              By playing on Tiger365, users can enjoy online gambling without risking their well-being due to responsible gaming. This feature promotes a sensible approach to gaming. By encouraging responsible gaming, Tiger365 wants its players to engage in controlled and safe gambling. In fact, responsible gaming provides gamblers with essential tools for managing their time and money wisely. In addition, this feature reminds users that gambling should not be seen as a means of solving their financial problems but as a form of entertainment.
             </p>
           </div>
         </div>

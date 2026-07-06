@@ -12,38 +12,38 @@ export default function RegistrationSteps() {
               How to Generate Your Tiger365 ID
             </h2>
             <p className={styles.intro}>
-              Obtaining an ID is the first and easiest step. With Tiger365, even a beginner can create their own account in minutes without any long, time-wasting steps.
+              Obtaining an ID is the first and easiest step. With Tiger365, even an inexperienced user can generate their own account in just a few simple steps with no time wasted on complicated procedures.
             </p>
             
             <div className={styles.stepsList}>
               <div className={styles.step}>
-                <h3>Step 1 – Start Chat on WhatsApp</h3>
-                <p>Click on any "Get ID" button to initiate a chat with our official Tiger365 support assistant.</p>
+                <h3>1. Chat On WhatsApp To Get An ID</h3>
+                <p>By clicking any ‘Get ID’ button on our website, you will be able to communicate with an official Tiger365 support agent.</p>
               </div>
               
               <div className={styles.step}>
-                <h3>Step 2 – Enter Nickname</h3>
-                <p>Share your username or nickname that you want to associate with your Tiger365 account.</p>
+                <h3>2. Provide Your Nickname</h3>
+                <p>Let your assistant know which Nickname you would like to use for your Tiger365 account.</p>
               </div>
               
               <div className={styles.step}>
-                <h3>Step 3 – Instant ID Generation</h3>
-                <p>The backend will immediately generate your login credentials, wallet keys, and the official site link.</p>
+                <h3>3. Get Your Login, Wallet Keys, And Link</h3>
+                <p>Your backend login, wallet keys, and personal account link will be provided right away by the support team.</p>
               </div>
               
               <div className={styles.step}>
-                <h3>Step 4 – Deposit Funds</h3>
-                <p>Deposit a minimum of ₹100 using secure UPI, WhatsApp Pay, or Bank transfer to get active chips.</p>
+                <h3>4. Deposit ₹100 To Start Playing</h3>
+                <p>Make a deposit of ₹100 via UPI, WhatsApp Pay, or Net Banking to get active chips and start playing.</p>
               </div>
 
               <div className={styles.step}>
-                <h3>Step 5 – Login & Place Bets</h3>
-                <p>Use the provided login link and credentials, choose your game, and start placing bets on live markets.</p>
+                <h3>5. Login & Start Placing Bets</h3>
+                <p>By following the provided link and using your credentials, you will be able to choose from Tiger365’s games and start betting right away.</p>
               </div>
 
               <div className={styles.step}>
-                <h3>Step 6 – Fast 24/7 Withdrawal</h3>
-                <p>Whenever you win, request a withdrawal on WhatsApp. The money will reach your bank account in 15-30 minutes.</p>
+                <h3>6. Withdraw Your Winnings Anytime</h3>
+                <p>Simply request a withdrawal on WhatsApp to get your winnings transferred to your bank account within 15-30 mins.</p>
               </div>
             </div>
           </div>

@@ -6,15 +6,7 @@ import { SITE_CONFIG } from "@/config/constants";
 const faqs = [
   {
     q: "How do I register for Tiger365?",
-    a: "Account registration on Tiger365 is easy and fast. Simply log into the website, tap the “Register” button, and enter your name and cellphone number to get your Tiger365 ID fast."
-  },
-  {
-    q: "How can one use the wallet services offered by Tiger365?",
-    a: "There are various wallet services offered by Tiger365 that can be used in a number of ways including banking deposits, payments via credit/debit cards, and various e-wallet services such as Paytm, PhonePe, Google Pay, Skrill, and so forth."
-  },
-  {
-    q: "Is Tiger365 stable for application?",
-    a: "Yes, due to the fact Tiger365 is equipped with excellent security protocols and encryption strategies that ensure that all your records and transactions are stored safe."
+    a: "On the Tiger365 website, the account registration process is quick and convenient. By simply logging on to the site and clicking the “Register” button, you will be able to enter your personal data (name, cell phone number) and get your Tiger365 ID."
   }
 ];
 

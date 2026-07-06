@@ -19,7 +19,7 @@ export default function Footer() {
         <div className={styles.disclaimerBox}>
           <h4 className={styles.disclaimerTitle}>LICENSE & SECURITY</h4>
           <p className={styles.disclaimerText}>
-            Tiger Exchange – India’s Fastest Growing Exchange brings you the most Secured Platform to Bet on Multiple Sports and Multiple Markets like Cricket, Tennis, Football, 200+ Casinos Games and Many More. Licensed and Regulated by Curacao Authority with company registration number 152377 and holding a license no. 365/JAZ Sub-License GLH- OCCHKTW0707072017.
+            Tiger Exchange – India’s fastest-growing exchange brings you the most secured platform to bet on Multiple Sports and Multiple Markets like Cricket, Tennis, Football, 200+ Casinos Games and Many More. Licensed and Regulated by Curacao Authority with company registration number 152377 and holding a license no. 365/JAZ Sub-License GLH- OCCHKTW0707072017.
           </p>
           <div className={styles.footerDivider}></div>
           <h4 className={styles.disclaimerTitle}>RESPONSIBLE GAMING</h4>

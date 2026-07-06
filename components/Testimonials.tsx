@@ -13,7 +13,7 @@ export default function Testimonials() {
           <div className={styles.card}>
             <div className={styles.stars}>★★★★★</div>
             <p className={styles.quote}>
-              "I have been using {SITE_CONFIG.brand.name} for three IPL seasons. The withdrawals are genuinely fast – never waited more than 20 minutes for a UPI payment. I recommended it to four friends and all of them had the same experience. This is the only platform I trust now."
+              "I have been a Tiger365 user for three IPL seasons now, and I must say that the withdrawals are incredibly fast. I never had to wait more than 20 minutes for a UPI withdrawal. I recommended Tiger365 to four of my friends, and they all had a pleasant experience with the bookmaker."
             </p>
             <div className={styles.author}>
               <h4>Vikram Mehta</h4>
@@ -24,7 +24,7 @@ export default function Testimonials() {
           <div className={styles.card}>
             <div className={styles.stars}>★★★★★</div>
             <p className={styles.quote}>
-              "I was nervous about depositing money on any betting platform after being burned by a Telegram operator before. A friend told me about {SITE_CONFIG.brand.name}. I started with ₹100, placed a couple of bets on CSK matches, won ₹3,400, and received it in my Paytm within 15 minutes."
+              "I was really reluctant to make any deposits on a betting website because one Telegram operator scammed me earlier. However, one friend recommended Tiger365, and I decided to try this bookmaker. I deposited ₹100, made a few bets on CSK matches, and won ₹3,400, which I got in my Paytm wallet within 15 minutes."
             </p>
             <div className={styles.author}>
               <h4>Sneha Iyer</h4>
@@ -35,7 +35,7 @@ export default function Testimonials() {
           <div className={styles.card}>
             <div className={styles.stars}>★★★★★</div>
             <p className={styles.quote}>
-              "The minimum deposit being ₹100 is what got me started. I was not ready to commit ₹1,000 on a new platform. Three months later I am a regular member and have withdrawn over ₹40,000 in total. Zero issues. The live markets during IPL are excellent."
+              "The minimum deposit of ₹100 was ideal for me because I did not want to risk ₹1,000 on a website I did not know well. Now, three months later, I am a regular user and have withdrawn more than ₹40,000 from my account. I believe the live betting markets during the IPL matches are absolutely fantastic."
             </p>
             <div className={styles.author}>
               <h4>Arjun Kapoor</h4>
@@ -46,7 +46,7 @@ export default function Testimonials() {
           <div className={styles.card}>
             <div className={styles.stars}>★★★★★</div>
             <p className={styles.quote}>
-              "I had questions about live login registration and the support team answered everything on WhatsApp within seconds. My ID was ready in under a minute. The whole process made other platforms look embarrassing by comparison."
+              "I had several questions about the live login registration, and the support team responded to me right away on WhatsApp. They helped me create my ID in less than a minute. Honestly, the process was seamless, and I have to admit other bookmakers looked ridiculous after I used Tiger365."
             </p>
             <div className={styles.author}>
               <h4>Ravi Verma</h4>

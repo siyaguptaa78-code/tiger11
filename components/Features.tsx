@@ -58,7 +58,7 @@ export default function Features() {
           Why Choose <span>{SITE_CONFIG.brand.name}</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Experience the ultimate and most secure online betting exchange in India.
+          Experience the ultimate and most trustworthy online betting exchange in India.
         </p>
 
         <div className={styles.grid}>

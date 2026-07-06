@@ -6,10 +6,10 @@ export default function WithdrawalProcess() {
     <section className={`section-padding ${styles.section}`}>
       <div className="container">
         <h2 className="section-title text-center">
-          <span>{SITE_CONFIG.brand.name}</span> Withdrawal Process – Fast, Transparent, Guaranteed
+          Tiger365 Withdrawal System – Fast, Transparent, And Guaranteed
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          The most important question any bettor asks is: “Will I actually get my money?” At {SITE_CONFIG.brand.name}, the answer is always yes – and it comes quickly.
+          The main question a bettor asks is whether the withdrawn amount will actually be delivered to them. On Tiger365, this problem does not exist since every user can expect to receive their earnings quickly, efficiently, and without any hidden conditions.
         </p>
 
         <div className={styles.methodsGrid}>
