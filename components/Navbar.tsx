@@ -52,9 +52,9 @@ export default function Navbar() {
           <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer">
             Tiger Exchange Cricket
           </a>
-          <a href={getWhatsAppLink("Blog")} target="_blank" rel="noopener noreferrer">
+          <Link href="/#blogs">
             Blog
-          </a>
+          </Link>
         </nav>
 
         <div className={styles.navActions}>
@@ -92,9 +92,9 @@ export default function Navbar() {
           <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
             Tiger Exchange Cricket
           </a>
-          <a href={getWhatsAppLink("Blog")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+          <Link href="/#blogs" onClick={() => setMobileMenuOpen(false)}>
             Blog
-          </a>
+          </Link>
           <div className={styles.mobileActions}>
             <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
               PLAY NOW

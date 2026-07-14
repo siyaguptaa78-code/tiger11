@@ -18,6 +18,7 @@ import ExchangeCategories from "@/components/ExchangeCategories";
 import { SITE_CONFIG } from "@/config/constants";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import SportsSidebar from "@/components/SportsSidebar";
+import BlogSection from "@/components/BlogSection";
 
 export const metadata: Metadata = {
   title: "Tiger365 Platform Ultimate Guide For Indian Players",
@@ -42,6 +43,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   registration: RegistrationSteps,
   features: Features,
   info: InfoSection,
+  blogs: BlogSection,
   sports: GameLobbies,
   withdrawal: WithdrawalProcess,
   bonuses: Bonuses,

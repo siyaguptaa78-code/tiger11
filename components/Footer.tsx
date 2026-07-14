@@ -65,7 +65,7 @@ export default function Footer() {
               <li><Link href="/">Home</Link></li>
               <li><Link href="#about">About us</Link></li>
               <li><a href={getWhatsAppLink("Games")} target="_blank" rel="noopener noreferrer">Games</a></li>
-              <li><a href={getWhatsAppLink("Blogs")} target="_blank" rel="noopener noreferrer">Blogs</a></li>
+              <li><Link href="/#blogs">Blogs</Link></li>
               <li><a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">Contact us</a></li>
             </ul>
           </div>

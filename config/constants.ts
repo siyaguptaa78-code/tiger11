@@ -55,6 +55,7 @@ export const SITE_CONFIG = {
       "comparison",
       "features",
       "info",
+      "blogs",
       "faq",
       "testimonials",
       "responsible"
