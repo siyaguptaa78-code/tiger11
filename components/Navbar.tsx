@@ -73,7 +73,7 @@ export default function Navbar() {
           </WhatsAppButton>
           
           <button 
-            className={styles.mobileMenuBtn}
+            className={`${styles.mobileMenuBtn} ${mobileMenuOpen ? styles.active : ""}`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle Menu"
           >
