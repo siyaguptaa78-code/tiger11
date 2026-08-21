@@ -2,78 +2,76 @@ import WhatsAppButton from "./WhatsAppButton";
 import styles from "./Features.module.css";
 import { SITE_CONFIG } from "@/config/constants";
 
-const featuresData = [
-  {
-    title: "Official Exchange Account",
-    description: "Your Tiger365 ID acts as a secure, verified digital account to keep betting transparent, organized, and fair.",
-    icon: "🐯"
-  },
-  {
-    title: "Instant ID Creation",
-    description: "Register and receive your verified Tiger365 exchange ID on WhatsApp in under 60 seconds.",
-    icon: "⚡"
-  },
-  {
-    title: "24/7 Fast Withdrawals",
-    description: "Get same-day payouts directly via UPI, NetBanking, or GooglePay in less than 15-30 minutes.",
-    icon: "💸"
-  },
-  {
-    title: "Multi-Market Betting",
-    description: "Access our rich Sportsbook (Cricket, Tennis, Soccer) and live Casino Lobbies (Poker, Teen Patti, Slots).",
-    icon: "🎯"
-  },
-  {
-    title: "Encrypted & Secured",
-    description: "All transactions and personal credentials remain fully encrypted and protected against unauthorized access.",
-    icon: "🔒"
-  },
-  {
-    title: "Real-time Records",
-    description: "Your deposits, match reports, bet histories, and balance updates sync live across all platforms.",
-    icon: "📊"
-  },
-  {
-    title: "Exclusive Welcome Promos",
-    description: "Claim dynamic welcome bonuses, first deposit rewards, and daily cashbacks on lost bets.",
-    icon: "🎁"
-  },
-  {
-    title: "24/7 VIP Helpdesk",
-    description: "Resolve queries instantly with our highly responsive WhatsApp customer support team.",
-    icon: "🤝"
-  },
-  {
-    title: "Responsible Gaming",
-    description: "We provide safety tools and limits to ensure an enjoyable and controlled gaming experience.",
-    icon: "🧠"
-  }
-];
-
 export default function Features() {
   return (
-    <section className={`section-padding ${styles.featuresSection}`} id="services">
+    <section className={styles.featuresSection} id="features">
       <div className="container">
-        <h2 className="section-title text-center">
-          Why Choose <span>{SITE_CONFIG.brand.name}</span>
-        </h2>
-        <p className={`text-center ${styles.subtitle}`}>
-          Experience the ultimate and most trustworthy online betting exchange in India.
-        </p>
+        <div className={styles.header}>
+          <h2 className={styles.title}>
+            Platform <span>Features</span>
+          </h2>
+          <p className={styles.subtitle}>
+            Experience a premium sports exchange built for reliability.
+          </p>
+        </div>
 
-        <div className={styles.grid}>
-          {featuresData.map((feature, index) => (
-            <div key={index} className={styles.card}>
-              <div className={styles.icon}>{feature.icon}</div>
-              <h3>{feature.title}</h3>
-              <p>{feature.description}</p>
+        {/* Highlighted Featured Benefits */}
+        <div className={styles.featuredGrid}>
+          <div className={`${styles.featuredCard} ${styles.gradientCard}`}>
+            <div className={styles.iconLarge}>⚡</div>
+            <h3>Instant ID Creation</h3>
+            <p>Connect with our verified WhatsApp support to generate your Tiger365 ID and start playing immediately without complicated forms.</p>
+          </div>
+          <div className={`${styles.featuredCard} ${styles.darkCard}`}>
+            <div className={styles.iconLarge}>🎯</div>
+            <h3>Multi-Market Betting</h3>
+            <p>Access our comprehensive Sportsbook including Cricket, Tennis, and Soccer, alongside premium Live Casino Lobbies.</p>
+          </div>
+          <div className={`${styles.featuredCard} ${styles.outlineCard}`}>
+            <div className={styles.iconLarge}>🔒</div>
+            <h3>Secure & Encrypted</h3>
+            <p>Your transactions and personal credentials are protected with industry-standard encryption for a safe gaming experience.</p>
+          </div>
+        </div>
+
+        {/* Compact Secondary Features */}
+        <div className={styles.compactGrid}>
+          <div className={styles.compactCard}>
+            <span className={styles.compactIcon}>📊</span>
+            <div className={styles.compactContent}>
+              <h4>Real-time Records</h4>
+              <p>Live sync of your bet histories and balances.</p>
             </div>
-          ))}
+          </div>
+          
+          <div className={styles.compactCard}>
+            <span className={styles.compactIcon}>💬</span>
+            <div className={styles.compactContent}>
+              <h4>24/7 VIP Helpdesk</h4>
+              <p>Round-the-clock WhatsApp customer support.</p>
+            </div>
+          </div>
+          
+          <div className={styles.compactCard}>
+            <span className={styles.compactIcon}>🤝</span>
+            <div className={styles.compactContent}>
+              <h4>Official Exchange</h4>
+              <p>Transparent, organized, and fair betting.</p>
+            </div>
+          </div>
+
+          <div className={styles.compactCard}>
+            <span className={styles.compactIcon}>🧠</span>
+            <div className={styles.compactContent}>
+              <h4>Responsible Gaming</h4>
+              <p>Tools to ensure a controlled gaming experience.</p>
+            </div>
+          </div>
         </div>
 
         <div className={styles.ctaWrapper}>
-          <WhatsAppButton className={styles.largeCta}>
-            Get Your Official Tiger365 ID Instantly
+          <WhatsAppButton className="btn-primary">
+            GET YOUR OFFICIAL TIGER365 ID
           </WhatsAppButton>
         </div>
       </div>

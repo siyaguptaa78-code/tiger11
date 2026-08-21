@@ -4,163 +4,151 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 1rem 0;
-  transition: var(--transition);
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background-color: var(--secondary);
   border-bottom: 1px solid var(--border);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 72px;
 }
 
-.header.scrolled {
-  background: #ffffff;
-  padding: 0.8rem 0;
-  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
-  border-bottom: 1px solid var(--border);
+.scrolled {
+  background-color: rgba(11, 15, 25, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom-color: rgba(255, 122, 0, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .navContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1.5rem;
-}
-
-.logo {
-  text-decoration: none;
-  flex-shrink: 0;
+  height: 100%;
 }
 
 .logoWrapper {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
 .logoImg {
-  transition: var(--transition);
-  flex-shrink: 0;
+  width: auto;
+  height: 32px;
 }
 
-.logo:hover .logoImg {
-  transform: rotate(5deg) scale(1.05);
-}
-
-.logoTextWrapper {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.logoTextLine {
-  display: flex;
-  align-items: baseline;
-  gap: 5px;
-}
-
-.logoReddy {
-  font-family: var(--font-fjalla), 'Fjalla One', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary);
-  letter-spacing: 0.5px;
-}
-
-.logoAnna {
-  font-family: var(--font-raleway), 'Raleway', sans-serif;
-  font-size: 1.5rem; /* Make it equal size to TIGER */
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  color: #00509d;
-}
-
-.logoSub {
-  font-size: 0.6rem;
-  color: var(--text-muted);
-  letter-spacing: 1.5px;
-  margin-top: 2px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
+/* Desktop Navigation */
 .desktopNav {
-  display: flex;
-  gap: 2.2rem;
-  align-items: center;
+  display: none;
 }
 
-.desktopNav a {
+@media (min-width: 1024px) {
+  .desktopNav {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+
+.navLink {
+  color: var(--text-primary);
   font-weight: 600;
   font-size: 0.95rem;
-  color: var(--text-primary);
-  transition: var(--transition);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  white-space: nowrap;
+  position: relative;
+  transition: var(--transition);
 }
 
-.desktopNav a:hover {
+.navLink:hover {
   color: var(--primary);
 }
 
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+/* Actions */
 .navActions {
   display: flex;
-  gap: 0.8rem;
   align-items: center;
-  flex-shrink: 0;
+  gap: 1rem;
+}
+
+.waIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(37, 211, 102, 0.1);
+  color: #25D366;
+  transition: var(--transition);
+}
+
+.waIconWrapper:hover {
+  background: #25D366;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.waIconNav {
+  width: 24px;
+  height: 24px;
 }
 
 .desktopBtn {
-  border-radius: 4px !important;
-  font-weight: 700 !important;
-  padding: 8px 18px !important;
-  font-size: 0.9rem !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
-  white-space: nowrap !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  height: 38px !important;
-  box-sizing: border-box !important;
-}
-
-.loginBtn {
-  background: var(--primary) !important;
-  color: #ffffff !important;
-  border: none !important;
-}
-
-.loginBtn:hover {
-  background: var(--primary-hover) !important;
-}
-
-.registerBtn {
-  background: var(--primary) !important;
-  color: #ffffff !important;
-  border: none !important;
-}
-
-.registerBtn:hover {
-  background: var(--primary-hover) !important;
-}
-
-.mobileMenuBtn {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .desktopBtn {
+    display: inline-flex;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Menu Button */
+.mobileMenuBtn {
+  display: flex;
   flex-direction: column;
-  gap: 5px;
-  background: none;
+  justify-content: space-around;
+  width: 30px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .mobileMenuBtn {
+    display: none;
+  }
 }
 
 .mobileMenuBtn span {
-  width: 25px;
+  width: 100%;
   height: 2px;
   background-color: var(--text-primary);
-  transition: var(--transition);
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
 }
 
-/* Active hamburger animation */
 .mobileMenuBtn.active span:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .mobileMenuBtn.active span:nth-child(2) {
@@ -168,214 +156,52 @@
 }
 
 .mobileMenuBtn.active span:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
+/* Mobile Menu Dropdown */
 .mobileMenu {
   position: absolute;
-  top: 100%;
+  top: 72px;
   left: 0;
   width: 100%;
-  background: #ffffff;
+  background-color: var(--secondary);
+  border-bottom: 1px solid var(--border);
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  border-top: 1px solid var(--border);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   animation: slideDown 0.3s ease-out forwards;
 }
 
 @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.mobileMenu a {
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mobileNavLinks a {
+  color: var(--text-primary);
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--text-primary);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
   text-transform: uppercase;
-}
-
-.mobileMenu a:hover {
-  color: var(--primary);
 }
 
 .mobileActions {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 1rem;
 }
 
-.mobileActions a {
-  width: 100% !important;
+.mobilePlayBtn {
+  width: 100%;
+  text-align: center;
 }
-
-.mobileActions a + a {
-  margin-top: 10px !important;
-}
-
-/* Medium screens navigation adjustment */
-@media (max-width: 1200px) {
-  .desktopNav {
-    gap: 1.2rem;
-  }
-  .desktopNav a {
-    font-size: 0.85rem;
-  }
-}
-
-@media (max-width: 1080px) {
-  .desktopNav, .navActions .desktopBtn {
-    display: none !important;
-  }
-  .mobileMenuBtn {
-    display: flex;
-  }
-}
-
-.navItemDropdown {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.dropdownToggle {
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--text-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: var(--transition);
-  user-select: none;
-}
-
-.dropdownToggle:hover {
-  color: var(--primary);
-}
-
-.caret {
-  font-size: 0.65rem;
-  transition: transform 0.2s ease;
-  display: inline-block;
-  margin-top: 1px;
-}
-
-.navItemDropdown:hover .caret {
-  transform: rotate(180deg);
-}
-
-.dropdownMenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: var(--secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 0.5rem 0;
-  min-width: 200px;
-  box-shadow: var(--shadow-dark);
-  display: flex;
-  flex-direction: column;
-  z-index: 1001;
-  margin-top: 0.5rem;
-  animation: dropdownFade 0.2s ease-out;
-}
-
-@keyframes dropdownFade {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.dropdownMenu a {
-  padding: 0.6rem 1.2rem;
-  font-size: 0.9rem !important;
-  text-transform: none !important;
-  color: var(--text-primary);
-  transition: var(--transition);
-  display: block;
-}
-
-.dropdownMenu a:hover {
-  background-color: rgba(var(--primary-rgb), 0.1);
-  color: var(--primary) !important;
-}
-
-/* Mobile dropdown styles */
-.mobileDropdownSection {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.mobileDropdownHeader {
-  font-weight: 700;
-  color: var(--primary);
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-
-.mobileDropdownItems {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  gap: 0.5rem;
-}
-
-.mobileDropdownItems a {
-  font-size: 0.95rem !important;
-  color: var(--text-secondary) !important;
-  text-transform: none !important;
-}
-
-.waIconWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  background-color: #25d366;
-  color: #ffffff;
-  transition: var(--transition);
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
-}
-
-.waIconWrapper:hover {
-  transform: scale(1.08);
-  background-color: #20ba5a;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
-}
-
-.waIconNav {
-  width: 22px;
-  height: 22px;
-}
-
-@media (max-width: 768px) {
-  .navContainer {
-    padding: 0 1rem;
-    gap: 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .logoImg {
-    width: 145px !important;
-    height: auto !important;
-  }
-}
-

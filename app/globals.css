@@ -1,31 +1,31 @@
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
+  --background: #0b0f19; /* Deep dark blue/black */
+  --foreground: #f8fafc;
   
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
   --text-muted: #64748b;
   
   --primary: #ff7a00; /* Vivid Tiger Orange */
   --primary-hover: #e05300;
   --primary-rgb: 255, 122, 0;
   
-  --secondary: #f8fafc; /* Light Card Background */
-  --secondary-hover: #f1f5f9;
+  --secondary: #161e2e; /* Dark Card Background */
+  --secondary-hover: #1e293b;
   
-  --border: #e2e8f0;
+  --border: #263147;
   --border-light: rgba(var(--primary-rgb), 0.12);
 
   --gradient-gold: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
-  --gradient-dark: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+  --gradient-dark: linear-gradient(to bottom, #1e293b 0%, #0b0f19 100%);
   
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
   
-  --shadow-gold: 0 4px 15px rgba(var(--primary-rgb), 0.15);
-  --shadow-dark: 0 10px 30px rgba(15, 23, 42, 0.06);
+  --shadow-gold: 0 4px 15px rgba(var(--primary-rgb), 0.25);
+  --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.4);
   
   --transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }

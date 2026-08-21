@@ -3,46 +3,35 @@ import { SITE_CONFIG } from "@/config/constants";
 
 export default function WithdrawalProcess() {
   return (
-    <section className={`section-padding ${styles.section}`}>
+    <section className={styles.section} id="withdrawal">
       <div className="container">
-        <h2 className="section-title text-center">
-          Tiger365 Withdrawal System – Fast, Transparent, And Guaranteed
-        </h2>
-        <p className={`text-center ${styles.subtitle}`}>
-          The main question a bettor asks is whether the withdrawn amount will actually be delivered to them. On Tiger365, this problem does not exist since every user can expect to receive their earnings quickly, efficiently, and without any hidden conditions.
-        </p>
+        <div className={styles.header}>
+          <h2 className={styles.title}>
+            Fast & Secure <span>Withdrawals</span>
+          </h2>
+          <p className={styles.subtitle}>
+            Your winnings, your way. We process withdrawals efficiently through trusted payment methods.
+          </p>
+        </div>
 
         <div className={styles.methodsGrid}>
           <div className={styles.methodCard}>
             <div className={styles.icon}>📱</div>
-            <h3>UPI (GPay, PhonePe, Paytm)</h3>
-            <div className={styles.time}>Instant to 30 mins</div>
-            <p>The most popular method because of its speed and availability across virtually every smartphone in India.</p>
+            <h3>UPI Options</h3>
+            <p>Compatible with GPay, PhonePe, and Paytm. Quick processing directly to your linked bank account.</p>
           </div>
           
           <div className={styles.methodCard}>
             <div className={styles.icon}>🏦</div>
-            <h3>Bank Transfer (NEFT/IMPS)</h3>
-            <div className={styles.time}>1 to 2 hours</div>
-            <p>For larger withdrawals or members who prefer direct bank credit, available around the clock.</p>
+            <h3>Bank Transfer</h3>
+            <p>Direct NEFT/IMPS transfers available around the clock for standard bank routing.</p>
           </div>
 
           <div className={styles.methodCard}>
-            <div className={styles.icon}>₿</div>
-            <h3>Crypto (USDT, Bitcoin)</h3>
-            <div className={styles.time}>5 to 15 mins</div>
-            <p>Members who prefer cryptocurrency withdrawals have the option for crypto payouts with near-instant processing times.</p>
+            <div className={styles.icon}>💬</div>
+            <h3>WhatsApp Support</h3>
+            <p>Request withdrawals directly through our verified support channel for immediate processing.</p>
           </div>
-        </div>
-
-        <div className={styles.recordsBox}>
-          <h3>Verified Withdrawal Records</h3>
-          <p className={styles.recordSub}>Real members. Real transactions. Real amounts.</p>
-          <ul className={styles.recordList}>
-            <li><strong>Rajesh Sharma, Mumbai</strong> – ₹1,85,000 via UPI – 22 minutes</li>
-            <li><strong>Priya Singh, Delhi</strong> – ₹45,000 via Paytm – 11 minutes</li>
-            <li><strong>Suresh Patel, Bangalore</strong> – ₹2,50,000 via Bank Transfer – 18 minutes</li>
-          </ul>
         </div>
       </div>
     </section>

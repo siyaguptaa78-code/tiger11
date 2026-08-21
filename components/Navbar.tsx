@@ -12,7 +12,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -47,14 +47,10 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className={styles.desktopNav}>
-          <Link href="/">Home</Link>
-          <Link href="#about">Tiger365</Link>
-          <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer">
-            Tiger Exchange Cricket
-          </a>
-          <Link href="/#blogs">
-            Blog
-          </Link>
+          <Link href="/" className={styles.navLink}>Home</Link>
+          <a href="#exchange" className={styles.navLink}>Exchange</a>
+          <a href="#lobbies" className={styles.navLink}>Casino</a>
+          <a href="#steps" className={styles.navLink}>Get ID</a>
         </nav>
 
         <div className={styles.navActions}>
@@ -68,8 +64,8 @@ export default function Navbar() {
             {whatsappIcon}
           </a>
 
-          <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-            PLAY NOW
+          <WhatsAppButton className={`${styles.desktopBtn} btn-primary`}>
+            LOGIN / SIGNUP
           </WhatsAppButton>
           
           <button 
@@ -87,17 +83,15 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>Tiger365</Link>
-          <a href={getWhatsAppLink("Tiger Exchange Cricket")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
-            Tiger Exchange Cricket
-          </a>
-          <Link href="/#blogs" onClick={() => setMobileMenuOpen(false)}>
-            Blog
-          </Link>
+          <div className={styles.mobileNavLinks}>
+            <Link href="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+            <a href="#exchange" onClick={() => setMobileMenuOpen(false)}>Exchange</a>
+            <a href="#lobbies" onClick={() => setMobileMenuOpen(false)}>Casino</a>
+            <a href="#steps" onClick={() => setMobileMenuOpen(false)}>Get ID</a>
+          </div>
           <div className={styles.mobileActions}>
-            <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-              PLAY NOW
+            <WhatsAppButton className={`btn-primary ${styles.mobilePlayBtn}`}>
+              LOGIN / SIGNUP
             </WhatsAppButton>
           </div>
         </div>

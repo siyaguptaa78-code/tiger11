@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Tiger365",
     images: [
       {
-        url: "https://tiger365com.com/wp-content/uploads/2025/04/logo-text-768x134.png",
+        url: "https://tiger-exchange247.com/wp-content/uploads/2025/04/logo-text-768x134.png",
         width: 1200,
         height: 630,
         alt: `${SITE_CONFIG.brand.name} Official Logo`,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Tiger365 Platform Ultimate Guide For Indian Players",
     description: "Welcome to Tiger365, India's premier online sports and gaming platform. Get your official Tiger365 ID instantly on WhatsApp, log in securely, and enjoy high-stakes live casino and sportsbooks.",
-    images: ["https://tiger365com.com/wp-content/uploads/2025/04/logo-text-768x134.png"],
+    images: ["https://tiger-exchange247.com/wp-content/uploads/2025/04/logo-text-768x134.png"],
   },
   icons: {
     icon: '/favicon.ico',

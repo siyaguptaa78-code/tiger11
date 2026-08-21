@@ -52,7 +52,6 @@ export const SITE_CONFIG = {
       "bonuses",
       "registration",
       "withdrawal",
-      "comparison",
       "features",
       "info",
       "blogs",

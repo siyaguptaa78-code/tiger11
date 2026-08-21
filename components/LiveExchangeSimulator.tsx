@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./LiveExchangeSimulator.module.css";
 import { SITE_CONFIG } from "@/config/constants";
 
@@ -95,6 +95,7 @@ const OTHER_MATCHES: Match[] = [
 ];
 
 export default function LiveExchangeSimulator() {
+  const [activeTab, setActiveTab] = useState("cricket");
   
   const handleBetClick = (team: string, type: "Back" | "Lay", oddValue: number | string | null) => {
     if (oddValue === null) return;
@@ -107,47 +108,54 @@ export default function LiveExchangeSimulator() {
   const renderMatchRow = (match: Match) => {
     return (
       <div key={match.id} className={styles.matchRow}>
-        <div className={styles.matchMeta}>
-          <div className={styles.matchTime}>
-            {match.isLive && <span className={styles.indicator}></span>} {match.time}
+        <div className={styles.matchInfo}>
+          <div className={styles.matchStatus}>
+            {match.isLive ? (
+              <span className={styles.liveIndicator}>
+                <span className={styles.pulse}></span> LIVE
+              </span>
+            ) : (
+              <span className={styles.upcomingIndicator}>{match.time}</span>
+            )}
           </div>
-          <div className={styles.matchIndicators}>
-            <div className={styles.matchIcons}>
-              {match.hasBM && <span className={`${styles.badgeIcon} ${styles.bm}`}>BM</span>}
-              {match.hasF && <span className={`${styles.badgeIcon} ${styles.f}`}>F</span>}
-              {match.hasP && <span className={`${styles.badgeIcon} ${styles.p}`}>P</span>}
+          <div className={styles.matchTeams}>
+            <div className={styles.team}>
+              <span>{match.teamA}</span>
             </div>
-            <span style={{ fontSize: "14px" }}>🔔 💬</span>
+            <div className={styles.team}>
+              <span>{match.teamB}</span>
+            </div>
+          </div>
+          <div className={styles.marketIcons}>
+            {match.hasBM && <span className={styles.iconBm} title="Bookmaker">BM</span>}
+            {match.hasF && <span className={styles.iconF} title="Fancy">F</span>}
+            {match.hasP && <span className={styles.iconP} title="Premium">P</span>}
           </div>
         </div>
 
-        <div className={styles.matchDetails}>
-          <div className={styles.teamName}>
-            {match.teamA} v {match.teamB}
-          </div>
-          
-          <div className={styles.oddsGrid}>
-            {/* Back Odds (Blue) */}
+        <div className={styles.oddsSection}>
+          <div className={styles.oddsGroup}>
             {match.odds.back.map((odd, idx) => (
               <button
                 key={`back-${idx}`}
-                className={`${styles.oddsBtn} ${odd !== null ? styles.backBtn : styles.emptyOdds}`}
+                className={`${styles.oddsBtn} ${styles.btnBack} ${odd === null ? styles.btnEmpty : ''}`}
                 onClick={() => handleBetClick(match.teamA, "Back", odd)}
                 disabled={odd === null}
               >
-                <span>{odd !== null ? odd : "-"}</span>
+                <span className={styles.oddValue}>{odd !== null ? odd : "-"}</span>
               </button>
             ))}
-            
-            {/* Lay Odds (Pink) */}
+          </div>
+          
+          <div className={styles.oddsGroup}>
             {match.odds.lay.map((odd, idx) => (
               <button
                 key={`lay-${idx}`}
-                className={`${styles.oddsBtn} ${odd !== null ? styles.layBtn : styles.emptyOdds}`}
+                className={`${styles.oddsBtn} ${styles.btnLay} ${odd === null ? styles.btnEmpty : ''}`}
                 onClick={() => handleBetClick(match.teamB, "Lay", odd)}
                 disabled={odd === null}
               >
-                <span>{odd !== null ? odd : "-"}</span>
+                <span className={styles.oddValue}>{odd !== null ? odd : "-"}</span>
               </button>
             ))}
           </div>
@@ -157,22 +165,44 @@ export default function LiveExchangeSimulator() {
   };
 
   return (
-    <section className={styles.section} id="live-exchange">
-      <div className={styles.titleWrapper}>
-        <h2>Live <span>Exchange simulator</span></h2>
-        <span style={{ fontSize: "0.9rem" }}>🟢 Real-time Markets</span>
-      </div>
+    <section className={styles.exchangeSection} id="exchange">
+      <div className="container">
+        <div className={styles.exchangeHeader}>
+          <div className={styles.titleArea}>
+            <h2 className={styles.title}>Live <span>Exchange</span></h2>
+            <div className={styles.simulationBadge}>SIMULATION DATA</div>
+          </div>
+          
+          <div className={styles.tabsContainer}>
+            <button 
+              className={`${styles.tab} ${activeTab === 'cricket' ? styles.activeTab : ''}`}
+              onClick={() => setActiveTab('cricket')}
+            >
+              🏏 Cricket
+            </button>
+            <button 
+              className={`${styles.tab} ${activeTab === 'other' ? styles.activeTab : ''}`}
+              onClick={() => setActiveTab('other')}
+            >
+              ⚽ Football & Tennis
+            </button>
+          </div>
+        </div>
 
-      <div className={styles.exchangeHeader}>Cricket Exchange</div>
-      <div className={styles.matchList}>
-        {CRICKET_MATCHES.map((match) => renderMatchRow(match))}
-      </div>
-
-      <div className={styles.exchangeHeader} style={{ marginTop: "2rem", backgroundColor: "#0f1c3f" }}>
-        Football & Tennis Exchange
-      </div>
-      <div className={styles.matchList}>
-        {OTHER_MATCHES.map((match) => renderMatchRow(match))}
+        <div className={styles.exchangeBoard}>
+          <div className={styles.boardHeader}>
+            <div className={styles.colMatch}>Match</div>
+            <div className={styles.colOdds}>
+              <div className={styles.headerBack}>BACK</div>
+              <div className={styles.headerLay}>LAY</div>
+            </div>
+          </div>
+          
+          <div className={styles.matchList}>
+            {activeTab === 'cricket' && CRICKET_MATCHES.map((match) => renderMatchRow(match))}
+            {activeTab === 'other' && OTHER_MATCHES.map((match) => renderMatchRow(match))}
+          </div>
+        </div>
       </div>
     </section>
   );

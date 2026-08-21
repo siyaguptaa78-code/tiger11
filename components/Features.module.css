@@ -1,86 +1,155 @@
 .featuresSection {
+  padding: 5rem 0;
   background-color: var(--background);
-  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.title span {
+  color: var(--primary);
 }
 
 .subtitle {
   color: var(--text-secondary);
   font-size: 1.1rem;
-  margin-bottom: 3.5rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.grid {
+.featuredGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.8rem;
-  margin-bottom: 4rem;
-}
-
-.card {
-  background: var(--secondary);
-  padding: 2.2rem 1.8rem;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(var(--primary-rgb), 0.15);
-  border-color: var(--primary);
-}
-
-.icon {
-  font-size: 2.8rem;
-  margin-bottom: 1.2rem;
-  display: inline-block;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.card h3 {
-  font-size: 1.35rem;
-  color: var(--primary);
-  font-weight: 400;
-  margin-bottom: 0.8rem;
-  font-family: var(--font-fjalla), sans-serif;
-}
-
-.card p {
-  color: var(--text-secondary);
-  font-size: 0.95rem;
-  line-height: 1.55;
-  font-family: var(--font-raleway), sans-serif;
-}
-
-.ctaWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.largeCta {
-  font-size: 1.15rem;
-  padding: 16px 36px;
-  border-radius: 50px;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 992px) {
-  .grid {
+  .featuredGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.featuredCard {
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  text-align: center;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featuredCard:hover {
+  transform: translateY(-5px);
+}
+
+.iconLarge {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.featuredCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.featuredCard p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.gradientCard {
+  background: var(--gradient-gold);
+  color: #fff;
+  box-shadow: var(--shadow-gold);
+}
+
+.gradientCard h3, .gradientCard p {
+  color: #fff;
+}
+
+.darkCard {
+  background: var(--secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.darkCard h3 { color: var(--text-primary); }
+.darkCard p { color: var(--text-secondary); }
+
+.outlineCard {
+  background: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--primary);
+}
+
+.outlineCard h3 { color: var(--text-primary); }
+.outlineCard p { color: var(--text-secondary); }
+
+/* Compact grid */
+.compactGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .compactGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 768px) {
-  .grid {
+@media (max-width: 640px) {
+  .compactGrid {
     grid-template-columns: 1fr;
   }
-  .largeCta {
-    width: 100%;
-    font-size: 1rem;
-    padding: 14px 20px;
-  }
+}
+
+.compactCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--secondary);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+}
+
+.compactCard:hover {
+  border-color: var(--primary);
+  background: var(--secondary-hover);
+}
+
+.compactIcon {
+  font-size: 1.75rem;
+}
+
+.compactContent h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.compactContent p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.ctaWrapper {
+  text-align: center;
+  margin-top: 4rem;
 }
