@@ -13,6 +13,22 @@ export default function BlogSection() {
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Tiger365Play Complete Guide */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🏏</div>
+            <div className={styles.content}>
+              <h3>Tiger365Play: Complete Guide to Sports & Gaming</h3>
+              <p className={styles.cardDesc}>
+                Explore Tiger365Play: comprehensive coverage of cricket exchange markets, live in-play betting, account ID setup, login security, and payment methods.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/tiger365play-guide/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card 1: Champions Trophy Winners List */}
           <div className={styles.card}>
             <div className={styles.icon}>🏆</div>
