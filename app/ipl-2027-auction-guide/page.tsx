@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
@@ -343,7 +344,7 @@ export default function Ipl2027AuctionPage() {
                 The IPL 2027 auction will be an important event in the build-up to the next IPL season, but several details remain to be officially confirmed. The current 2025–27 regulations already provide a framework covering player retention, RTM selections, salary caps, overseas registration, match fees and the Impact Player rule. For 2027, the total salary-cap figure specified in those regulations is ₹157 crore.
               </p>
               <p className={styles.paragraph}>
-                The next major developments will likely involve the retention window, trades, player registration and the eventual auction list. Until those announcements are made, fans should distinguish between confirmed IPL regulations and unofficial reports about auction dates, players or team plans. For more cricket news, tournament guides, schedules and IPL updates, visit Tiger365 Play.
+                The next major developments will likely involve the retention window, trades, player registration and the eventual auction list. Until those announcements are made, fans should distinguish between confirmed IPL regulations and unofficial reports about auction dates, players or team plans. For more cricket news, tournament guides, schedules and IPL updates, visit <Link href="/" style={{ color: "var(--primary)", textDecoration: "underline" }}>Tiger365 Play</Link>.
               </p>
 
               <div className={styles.faqSection}>
