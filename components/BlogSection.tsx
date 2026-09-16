@@ -13,6 +13,22 @@ export default function BlogSection() {
         </p>
 
         <div className={styles.grid}>
+          {/* Card: IPL 2027 Auction Guide */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🏏</div>
+            <div className={styles.content}>
+              <h3>IPL 2027 Auction: Expected Date, Players List, Purse & Rules</h3>
+              <p className={styles.cardDesc}>
+                Everything confirmed so far about the IPL 2027 auction — retention and RTM rules, the ₹157 crore salary cap, overseas player rules, the Impact Player regulation, and what&apos;s still unannounced.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/ipl-2027-auction-guide/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Tiger365Play Complete Guide */}
           <div className={styles.card}>
             <div className={styles.icon}>🏏</div>
