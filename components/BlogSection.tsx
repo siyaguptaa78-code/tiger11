@@ -6,13 +6,29 @@ export default function BlogSection() {
     <section className={`section-padding ${styles.section}`} id="blogs">
       <div className="container">
         <h2 className="section-title text-center">
-          Latest <span>Cricket Blogs</span>
+          Latest <span>Sports & Cricket Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest cricket guides, histories, tournament records, and insights.
+          Stay updated with the latest football guides, tournament rules, cricket histories, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Football Offside Rule */}
+          <div className={styles.card}>
+            <div className={styles.icon}>⚽</div>
+            <div className={styles.content}>
+              <h3>Football Offside Rule Explained Simply</h3>
+              <p className={styles.cardDesc}>
+                Real match examples, IFAB Law 11 checkpoints, the second-last opponent rule, VAR flag delays, active interference, and why goals get ruled out.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/offside-rule-explained-simple-examples/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: IPL 2027 Auction Guide */}
           <div className={styles.card}>
             <div className={styles.icon}>🏏</div>
@@ -45,7 +61,7 @@ export default function BlogSection() {
             </div>
           </div>
 
-          {/* Card 1: Champions Trophy Winners List */}
+          {/* Card: Champions Trophy Winners List */}
           <div className={styles.card}>
             <div className={styles.icon}>🏆</div>
             <div className={styles.content}>
