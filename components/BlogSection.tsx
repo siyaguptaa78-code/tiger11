@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Cricket Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest football guides, tournament rules, cricket histories, and match insights.
+          Stay updated with the latest football guides, officiating technology, cricket histories, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: VAR in Football */}
+          <div className={styles.card}>
+            <div className={styles.icon}>📺</div>
+            <div className={styles.content}>
+              <h3>VAR in Football: Technology & Controversies</h3>
+              <p className={styles.cardDesc}>
+                How video officiating works, the &quot;clear and obvious&quot; standard, the 4 review categories, major controversies, and the Indian horizon with FIFA&apos;s FVS system.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/var-in-football-how-it-works-controversies/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Football Offside Rule */}
           <div className={styles.card}>
             <div className={styles.icon}>⚽</div>
