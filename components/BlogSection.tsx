@@ -6,13 +6,29 @@ export default function BlogSection() {
     <section className={`section-padding ${styles.section}`} id="blogs">
       <div className="container">
         <h2 className="section-title text-center">
-          Latest <span>Sports & Cricket Blogs</span>
+          Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest football guides, officiating technology, cricket histories, and match insights.
+          Stay updated with the latest kabaddi rules, football guides, officiating technology, cricket histories, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Kabaddi Rules Explained */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🤼</div>
+            <div className={styles.content}>
+              <h3>Kabaddi Rules Explained: Raids, Tackles & Scoring</h3>
+              <p className={styles.cardDesc}>
+                Complete guide to professional kabaddi: court geometry, 30-second raid mechanics, tackle techniques, bonus line trailing foot rules, and super tackles.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/kabaddi-rules-explained-raid-tackle-bonus-super-tackle/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: VAR in Football */}
           <div className={styles.card}>
             <div className={styles.icon}>📺</div>
