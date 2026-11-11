@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest kabaddi rules, football guides, officiating technology, cricket histories, and match insights.
+          Stay updated with the latest football transfer guides, kabaddi rules, officiating technology, cricket histories, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Football Transfer Windows */}
+          <div className={styles.card}>
+            <div className={styles.icon}>💼</div>
+            <div className={styles.content}>
+              <h3>Football Transfer Windows Explained</h3>
+              <p className={styles.cardDesc}>
+                The complete guide to FIFA RSTP rules, three-party agreements, fee amortization, FIFA TMS validation, and Deadline Day in Indian Standard Time (IST).
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/how-football-transfer-windows-work-fifa-rules-guide/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Kabaddi Rules Explained */}
           <div className={styles.card}>
             <div className={styles.icon}>🤼</div>
