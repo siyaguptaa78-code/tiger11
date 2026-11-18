@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest football transfer guides, kabaddi rules, officiating technology, cricket histories, and match insights.
+          Stay updated with the latest basketball guides, football rules, kabaddi tactics, officiating technology, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Basketball Rules & NBA Format */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🏀</div>
+            <div className={styles.content}>
+              <h3>Basketball Rules & NBA Format Explained</h3>
+              <p className={styles.cardDesc}>
+                A complete beginner&apos;s guide to basketball: court dimensions, scoring, 24-second shot clock, fouls vs. violations, NBA vs. FIBA rules, and the road to the NBA Finals.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/basketball-rules-for-beginners-nba-format-explained/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Football Transfer Windows */}
           <div className={styles.card}>
             <div className={styles.icon}>💼</div>
