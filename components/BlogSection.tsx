@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest basketball guides, football rules, kabaddi tactics, officiating technology, and match insights.
+          Stay updated with the latest tennis scoring guides, basketball rules, football tactics, kabaddi rules, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Tennis Scoring System Explained */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🎾</div>
+            <div className={styles.content}>
+              <h3>Tennis Scoring System Explained</h3>
+              <p className={styles.cardDesc}>
+                Understand the 3-tier hierarchy of points (Love, 15, 30, 40), Deuce and Advantage, winning sets (6–4, 7–5), and 7-point vs. 10-point tiebreaks under ITF rules.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/tennis-scoring-system-explained-points-games-sets-tiebreak/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Basketball Rules & NBA Format */}
           <div className={styles.card}>
             <div className={styles.icon}>🏀</div>
