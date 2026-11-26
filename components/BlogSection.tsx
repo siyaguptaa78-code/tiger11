@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with the latest tennis scoring guides, basketball rules, football tactics, kabaddi rules, and match insights.
+          Stay updated with Premier League rules, tennis scoring, basketball guides, football tactics, kabaddi rules, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Premier League Points & Tie-Breakers */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🦁</div>
+            <div className={styles.content}>
+              <h3>Premier League Points & Tie-Breakers</h3>
+              <p className={styles.cardDesc}>
+                How Premier League standings work: 3-point system, goal difference tiebreakers, neutral-venue play-offs, relegation, and European qualification permutations.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/how-premier-league-points-relegation-tie-breakers-work/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Tennis Scoring System Explained */}
           <div className={styles.card}>
             <div className={styles.icon}>🎾</div>

@@ -64,5 +64,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/how-premier-league-points-relegation-tie-breakers-work/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ];
 }
