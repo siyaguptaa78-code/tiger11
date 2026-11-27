@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with Premier League rules, tennis scoring, basketball guides, football tactics, kabaddi rules, and match insights.
+          Stay updated with Champions League guides, Premier League rules, tennis scoring, basketball rules, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Champions League Format Explained */}
+          <div className={styles.card}>
+            <div className={styles.icon}>⭐</div>
+            <div className={styles.content}>
+              <h3>Champions League 36-Team Format Explained</h3>
+              <p className={styles.cardDesc}>
+                How the 36-team single league table, four-pot draw, Article 18 tiebreakers, and seeded tennis-style knockout bracket work.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/champions-league-format-explained-league-phase-knockouts/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Premier League Points & Tie-Breakers */}
           <div className={styles.card}>
             <div className={styles.icon}>🦁</div>
