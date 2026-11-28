@@ -9,10 +9,26 @@ export default function BlogSection() {
           Latest <span>Sports & Gaming Blogs</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Stay updated with Champions League guides, Premier League rules, tennis scoring, basketball rules, and match insights.
+          Stay updated with goal difference calculators, Champions League guides, Premier League rules, tennis scoring, and match insights.
         </p>
 
         <div className={styles.grid}>
+          {/* Card: Goal Difference and League Table Calculator */}
+          <div className={styles.card}>
+            <div className={styles.icon}>🧮</div>
+            <div className={styles.content}>
+              <h3>Goal Difference & League Table Calculator</h3>
+              <p className={styles.cardDesc}>
+                How football standings work: GD formulas, tiebreaker hierarchies (Premier League vs. ISL vs. La Liga), and building your own automated table calculator.
+              </p>
+              <div className={styles.btnWrapper}>
+                <Link href="/goal-difference-and-league-table-calculator/" className={styles.moreBtn}>
+                  Show More
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Card: Champions League Format Explained */}
           <div className={styles.card}>
             <div className={styles.icon}>⭐</div>
